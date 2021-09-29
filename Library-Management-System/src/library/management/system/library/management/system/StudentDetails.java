@@ -80,7 +80,7 @@ public class StudentDetails extends JFrame implements ActionListener {
 
         JButton b2 = new JButton("Delete");
         b2.addActionListener(this);
-        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/nineth.png"));
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/nineth.png"));
         Image i5 = i4.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         b2.setIcon(i6);

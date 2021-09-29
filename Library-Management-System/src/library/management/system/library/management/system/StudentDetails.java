@@ -69,7 +69,7 @@ public class StudentDetails extends JFrame implements ActionListener {
         JButton b1 = new JButton("Search");
         b1.addActionListener(this);
         b1.setBorder(new LineBorder(new Color(255, 20, 147), 2, true));
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/eight.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/eight.png"));
         Image i2 = i1.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         b1.setIcon(i3);

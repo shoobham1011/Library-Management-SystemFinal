@@ -82,7 +82,7 @@ public class Statistics extends JFrame {
         });
         l1.setForeground(new Color(204, 0, 102));
         l1.setFont(new Font("Tahoma", Font.BOLD, 18));
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/tenth.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/tenth.png"));
         Image i2 = i1.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         l1.setIcon(i3);

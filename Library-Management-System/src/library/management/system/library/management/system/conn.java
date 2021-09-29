@@ -1,8 +1,5 @@
 package library.management.system;
 
-
-
-
 import java.sql.*;
 class Conn {
     Connection c;
@@ -12,7 +9,7 @@ class Conn {
     public Conn() {
         // register the driver class
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver"); //for connection
             // create the connection object
             c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/project7", "root", "XtremeMADAFAKA");
             if (c != null) {

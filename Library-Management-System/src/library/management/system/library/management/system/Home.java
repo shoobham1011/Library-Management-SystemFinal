@@ -84,7 +84,7 @@ public class Home extends JFrame implements ActionListener {
         l1.setBounds(268, 30, 701, 80);
         contentPane.add(l1);
 
-        JLabel l2 = new JLabel("");
+        JLabel l2 = new JLabel("");          //for png and images
         l2.setVerticalAlignment(SwingConstants.TOP);
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/second.png"));
         Image i2 = i1.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);

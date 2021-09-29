@@ -117,7 +117,7 @@ public class StudentDetails extends JFrame implements ActionListener {
         });
         l2.setForeground(Color.GRAY);
         l2.setFont(new Font("Trebuchet MS", Font.BOLD, 18));
-        ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/tenth.png"));
+        ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("icons/tenth.png"));
         Image i8 = i7.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         ImageIcon i9 = new ImageIcon(i8);
         l2.setIcon(i9);

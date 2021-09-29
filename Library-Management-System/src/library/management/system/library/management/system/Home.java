@@ -86,7 +86,7 @@ public class Home extends JFrame implements ActionListener {
 
         JLabel l2 = new JLabel("");          //for png and images
         l2.setVerticalAlignment(SwingConstants.TOP);
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/second.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/second.png"));
         Image i2 = i1.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         l2 = new JLabel(i3);
@@ -94,7 +94,7 @@ public class Home extends JFrame implements ActionListener {
         contentPane.add(l2);
 
         JLabel l3 = new JLabel("");
-        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/third.png"));
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/third.png"));
         Image i5 = i4.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         l3 = new JLabel(i6);
@@ -102,7 +102,7 @@ public class Home extends JFrame implements ActionListener {
         contentPane.add(l3);
 
         JLabel l4 = new JLabel("");
-        ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/fourth.png"));
+        ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("icons/fourth.png"));
         Image i8 = i7.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);
         ImageIcon i9 = new ImageIcon(i8);
         l4 = new JLabel(i9);
@@ -159,7 +159,7 @@ public class Home extends JFrame implements ActionListener {
         contentPane.add(b6);
 
         JLabel l5 = new JLabel("");
-        ImageIcon i10 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/fifth.png"));
+        ImageIcon i10 = new ImageIcon(ClassLoader.getSystemResource("icons/fifth.png"));
         Image i11 = i10.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);
         ImageIcon i12 = new ImageIcon(i11);
         l5 = new JLabel(i12);
@@ -167,7 +167,7 @@ public class Home extends JFrame implements ActionListener {
         contentPane.add(l5);
 
         JLabel l6 = new JLabel("");
-        ImageIcon i13 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/sixth.png"));
+        ImageIcon i13 = new ImageIcon(ClassLoader.getSystemResource("icons/sixth.png"));
         Image i14 = i13.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);
         ImageIcon i15 = new ImageIcon(i14);
         l6 = new JLabel(i15);
@@ -175,7 +175,7 @@ public class Home extends JFrame implements ActionListener {
         contentPane.add(l6);
 
         JLabel l7 = new JLabel("");
-        ImageIcon i16 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/seventh.png"));
+        ImageIcon i16 = new ImageIcon(ClassLoader.getSystemResource("icons/seventh.png"));
         Image i17 = i16.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);
         ImageIcon i18 = new ImageIcon(i17);
         l7 = new JLabel(i18);

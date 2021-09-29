@@ -24,7 +24,7 @@ public class aboutUs extends JFrame {
         contentPane.setLayout(null);
 
         JLabel l1 = new JLabel("New label");
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("library/management/system/icons/logo.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/logo.png"));
         Image i2 = i1.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         l1 = new JLabel(i3);
@@ -51,28 +51,28 @@ public class aboutUs extends JFrame {
         contentPane.add(l5);
 
 
-        JLabel l6 = new JLabel("Developed By : Code for Interview");
+        JLabel l6 = new JLabel("Developed By : Subham Gadtaula");
         l6.setFont(new Font("Trebuchet MS", Font.BOLD, 30));
         l6.setBounds(70, 198, 600, 35);
         contentPane.add(l6);
 
-        JLabel l7 = new JLabel("Contact Us : codeforinterview01@gmail.com");
+        JLabel l7 = new JLabel("Contact Me : sshoobham10@gmail.com");
         l7.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
         l7.setBounds(70, 260, 600, 34);
         contentPane.add(l7);
 
-        JLabel l8 = new JLabel("Subscribe us on Youtube : Code for Interview");
+        JLabel l8 = new JLabel("Library Management System");
         l8.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
         l8.setBounds(70, 290, 600, 34);
         contentPane.add(l8);
 
-        JLabel l9 = new JLabel("Follow us on Instagram : codeforinterview");
+        JLabel l9 = new JLabel("Follow us on Instagram : Library Management System");
         l9.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
         l9.setBounds(70, 320, 600, 34);
         contentPane.add(l9);
 
 
-        JLabel l10 = new JLabel("**If you want us to make Java Project for you, drop a mail**");
+        JLabel l10 = new JLabel("**Thank YOU**");
         l10.setForeground(new Color(47, 79, 79));
         l10.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 18));
         l10.setBounds(70, 400, 600, 34);

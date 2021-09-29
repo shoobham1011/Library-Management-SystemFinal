@@ -125,7 +125,7 @@ public class StudentDetails extends JFrame implements ActionListener {
         contentPane.add(l2);
 
         JPanel panel = new JPanel();
-        panel.setBorder(new TitledBorder(new LineBorder(new Color(95, 158, 160), 3, true), "Student-Deatails",
+        panel.setBorder(new TitledBorder(new LineBorder(new Color(95, 158, 160), 3, true), "Student-Details",
                 TitledBorder.LEADING, TitledBorder.TOP, null, new Color(72, 209, 204)));
         panel.setBounds(68, 59, 790, 370);
         panel.setBackground(Color.WHITE);

@@ -23,11 +23,11 @@ public class Login_user extends JFrame implements ActionListener {
         setContentPane(panel);
         panel.setLayout(null);
 
-        JLabel l1 = new JLabel("Username : ");
+        JLabel l1 = new JLabel("Username : "); //for username
         l1.setBounds(124, 89, 95, 24);
         panel.add(l1);
 
-        JLabel l2 = new JLabel("Password : ");
+        JLabel l2 = new JLabel("Password : "); // for passwordd
         l2.setBounds(124, 124, 95, 24);
         panel.add(l2);
 
